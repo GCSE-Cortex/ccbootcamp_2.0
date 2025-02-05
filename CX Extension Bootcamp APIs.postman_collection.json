@@ -1,0 +1,205 @@
+{
+	"info": {
+		"_postman_id": "00716043-db64-44f1-b66f-33a4012378bb",
+		"name": "CX Extension Bootcamp APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1335336"
+	},
+	"item": [
+		{
+			"name": "GET Record",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cjpdata.wbx.ninja?number=PhoneNumberHere_NO_Country_Code!!!",
+					"protocol": "https",
+					"host": [
+						"cjpdata",
+						"wbx",
+						"ninja"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "PhoneNumberHere_NO_Country_Code!!!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST new record",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"consentSMS\": \"true\",\n    \"safeLocation\": \"null\",\n    \"orderId\": \"1234\",\n    \"timeZone\": \"America/New_York\",\n    \"altDate2\": \"04/02/2025\",\n    \"altDate1\": \"04/01/2025\",\n    \"productName\": \"ProductX\",\n    \"fName\": \"Stefan\",\n    \"phoneNumber\": \"1PhoneNumberHere_NO_Country_Code!!!\",\n    \"deliveryAddress\": \"125 High St Floor 17, Boston, MA 02110\",\n    \"deliveryETA\": \"03/31/2025\",\n    \"deliveryStatus\" : \"shipped\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cjpdata.wbx.ninja?number=PhoneNumberHere_NO_Country_Code!!!",
+					"protocol": "https",
+					"host": [
+						"cjpdata",
+						"wbx",
+						"ninja"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "PhoneNumberHere_NO_Country_Code!!!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE record",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cjpdata.wbx.ninja?number=PhoneNumberHere_NO_Country_Code!!!",
+					"protocol": "https",
+					"host": [
+						"cjpdata",
+						"wbx",
+						"ninja"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "PhoneNumberHere_NO_Country_Code!!!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH record",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"deliveryETA\": \"03/31/2025\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cjpdata.wbx.ninja?number=PhoneNumberHere_NO_Country_Code!!!",
+					"protocol": "https",
+					"host": [
+						"cjpdata",
+						"wbx",
+						"ninja"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "PhoneNumberHere_NO_Country_Code!!!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT record",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"consentSMS\": \"true\",\n    \"lName\": \"Kademada\",\n    \"safeLocation\": \"null\",\n    \"orderId\": \"1234\",\n    \"timeZone\": \"America/New_York\",\n    \"altDate2\": \"04/02/2025\",\n    \"altDate1\": \"04/01/2025\",\n    \"productName\": \"ProductX\",\n    \"fName\": \"Preetham\",\n    \"phoneNumber\": \"16509963785\",\n    \"deliveryAddress\": \"125 High St Floor 17, Boston, MA 02110\",\n    \"deliveryETA\": \"03/31/2025\",\n    \"deliveryStatus\": \"shipped\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cjpdata.wbx.ninja?number=6509963785",
+					"protocol": "https",
+					"host": [
+						"cjpdata",
+						"wbx",
+						"ninja"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "6509963785"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "davijenn@cisco.com",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
