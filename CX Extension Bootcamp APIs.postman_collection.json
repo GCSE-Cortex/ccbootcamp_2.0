@@ -48,7 +48,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"consentSMS\": \"true\",\n    \"safeLocation\": \"\",\n    \"orderId\": \"ThisCanBeAnyValue_RecommendToUseYourPhoneNumber\",\n    \"timeZone\": \"America/New_York\",\n    \"altDate2\": \"04/02/2025\",\n    \"altDate1\": \"04/01/2025\",\n    \"productName\": \"ProductX\",\n    \"fName\": \"AddYourFirstNameHere\",\n    \"lName\": \"AddYourLastNameHere\",\n    \"phoneNumber\": \"AddYourPhoneNumberHereWithCountryCode\",\n    \"deliveryAddress\": \"125 High St Floor 17, Boston, MA 02110\",\n    \"deliveryETA\": \"03/31/2025\",\n    \"deliveryStatus\" : \"\"\n}",
+					"raw": "{\n    \"consentSMS\": \"true\",\n    \"safeLocation\": \"\",\n    \"orderId\": \"ThisCanBeAnyValue_RecommendToUseYourPhoneNumber\",\n    \"timeZone\": \"America/New_York\",\n    \"altDate2\": \"04/02/2025\",\n    \"altDate1\": \"04/01/2025\",\n    \"productName\": \"Core Trio QI Charger\",\n    \"fName\": \"AddYourFirstNameHere\",\n    \"lName\": \"AddYourLastNameHere\",\n    \"phoneNumber\": \"AddYourPhoneNumberHereWithCountryCode\",\n    \"deliveryAddress\": \"125 High St Floor 17, Boston, MA 02110\",\n    \"deliveryETA\": \"03/31/2025\",\n    \"deliveryStatus\" : \"\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -144,7 +144,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"consentSMS\": \"true\",\n    \"lName\": \"Tester2\",\n    \"safeLocation\": \"\",\n    \"orderId\": \"1234\",\n    \"timeZone\": \"America/New_York\",\n    \"altDate2\": \"04/02/2025\",\n    \"altDate1\": \"04/01/2025\",\n    \"productName\": \"ProductX\",\n    \"fName\": \"Tester1\",\n    \"phoneNumber\": \"16509963785\",\n    \"deliveryAddress\": \"125 High St Floor 17, Boston, MA 02110\",\n    \"deliveryETA\": \"03/31/2025\",\n    \"deliveryStatus\": \"shipped\"\n}",
+					"raw": "{\n    \"consentSMS\": \"true\",\n    \"lName\": \"Tester2\",\n    \"safeLocation\": \"\",\n    \"orderId\": \"13334445555\",\n    \"timeZone\": \"America/New_York\",\n    \"altDate2\": \"04/02/2025\",\n    \"altDate1\": \"04/01/2025\",\n    \"productName\": \"Core Trio QI Charger\",\n    \"fName\": \"Tester1\",\n    \"phoneNumber\": \"12223334444\",\n    \"deliveryAddress\": \"125 High St Floor 17, Boston, MA 02110\",\n    \"deliveryETA\": \"03/31/2025\",\n    \"deliveryStatus\": \"\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -152,7 +152,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://cjpdata.wbx.ninja?number=12223334444",
+					"raw": "https://cjpdata.wbx.ninja?number=13334445555",
 					"protocol": "https",
 					"host": [
 						"cjpdata",
@@ -162,7 +162,7 @@
 					"query": [
 						{
 							"key": "number",
-							"value": "12223334444"
+							"value": "13334445555"
 						}
 					]
 				}
