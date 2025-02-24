@@ -24,7 +24,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://cjpdata.wbx.ninja?number=PhoneNumberHere_NO_Country_Code!!!",
+					"raw": "https://cjpdata.wbx.ninja?number=12223334444",
 					"protocol": "https",
 					"host": [
 						"cjpdata",
@@ -34,7 +34,7 @@
 					"query": [
 						{
 							"key": "number",
-							"value": "PhoneNumberHere_NO_Country_Code!!!"
+							"value": "12223334444"
 						}
 					]
 				}
@@ -48,7 +48,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"consentSMS\": \"true\",\n    \"safeLocation\": \"null\",\n    \"orderId\": \"1234\",\n    \"timeZone\": \"America/New_York\",\n    \"altDate2\": \"04/02/2025\",\n    \"altDate1\": \"04/01/2025\",\n    \"productName\": \"ProductX\",\n    \"fName\": \"Stefan\",\n    \"phoneNumber\": \"1PhoneNumberHere_NO_Country_Code!!!\",\n    \"deliveryAddress\": \"125 High St Floor 17, Boston, MA 02110\",\n    \"deliveryETA\": \"03/31/2025\",\n    \"deliveryStatus\" : \"shipped\"\n}",
+					"raw": "{\n    \"consentSMS\": \"true\",\n    \"safeLocation\": \"\",\n    \"orderId\": \"ThisCanBeAnyValue_RecommendToUseYourPhoneNumber\",\n    \"timeZone\": \"America/New_York\",\n    \"altDate2\": \"04/02/2025\",\n    \"altDate1\": \"04/01/2025\",\n    \"productName\": \"ProductX\",\n    \"fName\": \"AddYourFirstNameHere\",\n    \"lName\": \"AddYourLastNameHere\",\n    \"phoneNumber\": \"AddYourPhoneNumberHereWithCountryCode\",\n    \"deliveryAddress\": \"125 High St Floor 17, Boston, MA 02110\",\n    \"deliveryETA\": \"03/31/2025\",\n    \"deliveryStatus\" : \"\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -56,7 +56,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://cjpdata.wbx.ninja?number=PhoneNumberHere_NO_Country_Code!!!",
+					"raw": "https://cjpdata.wbx.ninja?number=12223334444",
 					"protocol": "https",
 					"host": [
 						"cjpdata",
@@ -66,7 +66,7 @@
 					"query": [
 						{
 							"key": "number",
-							"value": "PhoneNumberHere_NO_Country_Code!!!"
+							"value": "12223334444"
 						}
 					]
 				}
@@ -88,7 +88,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://cjpdata.wbx.ninja?number=PhoneNumberHere_NO_Country_Code!!!",
+					"raw": "https://cjpdata.wbx.ninja?number=12223334444",
 					"protocol": "https",
 					"host": [
 						"cjpdata",
@@ -98,7 +98,7 @@
 					"query": [
 						{
 							"key": "number",
-							"value": "PhoneNumberHere_NO_Country_Code!!!"
+							"value": "12223334444"
 						}
 					]
 				}
@@ -120,7 +120,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://cjpdata.wbx.ninja?number=PhoneNumberHere_NO_Country_Code!!!",
+					"raw": "https://cjpdata.wbx.ninja?number=12223334444",
 					"protocol": "https",
 					"host": [
 						"cjpdata",
@@ -130,7 +130,7 @@
 					"query": [
 						{
 							"key": "number",
-							"value": "PhoneNumberHere_NO_Country_Code!!!"
+							"value": "12223334444"
 						}
 					]
 				}
@@ -144,7 +144,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"consentSMS\": \"true\",\n    \"lName\": \"Kademada\",\n    \"safeLocation\": \"null\",\n    \"orderId\": \"1234\",\n    \"timeZone\": \"America/New_York\",\n    \"altDate2\": \"04/02/2025\",\n    \"altDate1\": \"04/01/2025\",\n    \"productName\": \"ProductX\",\n    \"fName\": \"Preetham\",\n    \"phoneNumber\": \"16509963785\",\n    \"deliveryAddress\": \"125 High St Floor 17, Boston, MA 02110\",\n    \"deliveryETA\": \"03/31/2025\",\n    \"deliveryStatus\": \"shipped\"\n}",
+					"raw": "{\n    \"consentSMS\": \"true\",\n    \"lName\": \"Tester2\",\n    \"safeLocation\": \"\",\n    \"orderId\": \"1234\",\n    \"timeZone\": \"America/New_York\",\n    \"altDate2\": \"04/02/2025\",\n    \"altDate1\": \"04/01/2025\",\n    \"productName\": \"ProductX\",\n    \"fName\": \"Tester1\",\n    \"phoneNumber\": \"16509963785\",\n    \"deliveryAddress\": \"125 High St Floor 17, Boston, MA 02110\",\n    \"deliveryETA\": \"03/31/2025\",\n    \"deliveryStatus\": \"shipped\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -152,7 +152,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://cjpdata.wbx.ninja?number=6509963785",
+					"raw": "https://cjpdata.wbx.ninja?number=12223334444",
 					"protocol": "https",
 					"host": [
 						"cjpdata",
@@ -162,7 +162,7 @@
 					"query": [
 						{
 							"key": "number",
-							"value": "6509963785"
+							"value": "12223334444"
 						}
 					]
 				}
